@@ -1,5 +1,4 @@
 import { Text, View,StyleSheet } from "react-native";
-
 export default function Index() {
   return (
     <View
@@ -20,5 +19,10 @@ const styles = StyleSheet.create({
   },
   text:{
     color:'#fff'
+  },
+  button: {
+    fontSize: 20,
+    textDecorationLine: 'underline',
+    color: '#fff',
   },
 });
