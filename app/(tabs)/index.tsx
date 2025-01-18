@@ -4,7 +4,9 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Text style={styles.text}> Home screen.
+      <Text style={styles.text}>
+        Welcome to 
+         Home screen.
       </Text>
     </View>
   );
